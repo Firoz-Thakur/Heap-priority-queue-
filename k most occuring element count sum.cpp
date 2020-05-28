@@ -2,7 +2,19 @@ Given an array arr[] of N integers in which elements may be repeating several ti
 is to find sum of total frequencies of K most occurring elements
 
 
+Example:
+Input:
+2
+8
+3 1 4 4 5 2 6 1
+2
+8
+3 3 3 4 1 1 6 1
+2
 
+Output:
+4
+6
 
 
 
