@@ -37,3 +37,18 @@ int KthLargest(int ar[], int n, int k) {
     }
     return p.top();
 }
+
+kth smallest number
+
+
+int kthSmallest(int ar[], int n, int k){
+    // Your code here
+ priority_queue<int> q(ar,ar+n);    
+ int x=n-k;
+ while(x--)
+ {
+     q.pop();
+ }
+    return q.top();
+}
+
